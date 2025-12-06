@@ -1,6 +1,6 @@
 # Himel’s Dev Blog – ReactJS + Tailwind CSS
 
-<img src="https://github.com/Mehedi-Hasan-Himel/himel-blog-react/blob/main/src/assets/aboutImage.png" alt="blog website" />
+<img src="https://github.com/Mehedi-Hasan-Himel/Himel-Dev-Blog/blob/main/assets/websiteUI.png?raw=true" alt="blog website" />
 
 
 A modern, fully interactive personal developer blog built from scratch using **React 18**, **Vite**, and **Tailwind CSS v3**.
