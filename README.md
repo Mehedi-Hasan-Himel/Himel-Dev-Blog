@@ -1,20 +1,38 @@
-<<<<<<< HEAD
-# React + Vite
+# Himel’s Dev Blog – ReactJS + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/Mehedi-Hasan-Himel/himel-blog-react/blob/main/src/assets/aboutImage.png" alt="blog website" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, fully interactive personal developer blog built from scratch using **React 18**, **Vite**, and **Tailwind CSS v3**.
 
-## React Compiler
+This project is the upgraded React version of my original static blog, now featuring real-time blog management without any backend.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Core Functionality
 
-## Expanding the ESLint configuration
+- **Add New Blog Posts**  
+  Fill the form → new post instantly appears at the top with current date.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# task-03-dev-blog-website
->>>>>>> cf37afb68eeeb22b029e334150b305a32c08ee1f
+- **Edit Existing Posts**  
+  Click **Edit** → a beautiful modal opens with pre-filled data → update and save.
+
+- **Delete Posts**  
+  One-click deletion with instant UI update.
+
+- **Responsive & Mobile-First Design**  
+  Works perfectly on phones, tablets, and desktops.
+
+- **Clean Component Architecture**  
+  Every section (Header, Hero, BlogForm, BlogCard, Modal, About, Footer, etc.) is a reusable React component.
+
+- **State Management with React Hooks**  
+  Uses only `useState` – no external libraries needed.
+
+- **Tailwind CSS + Custom Design Tokens**  
+  Beautiful dark-blue accent (`#15296c`), custom CSS variables, hover effects, and smooth transitions.
+
+- **Font Awesome Icons (React version)**  
+  Professional icons for social links and UI elements.
+
+- **Fast & Lightweight**  
+  Powered by Vite → lightning-fast dev server and optimized production build.
+
