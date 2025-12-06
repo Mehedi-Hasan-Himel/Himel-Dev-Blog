@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #f9f9f9;
+    --primary: #15296c;
+    --primary-variant: rgba(21, 41, 108, 0.2);
+    --primary-variant-2: #dbe0f5;
+    --light: #6b7280;
+    --white: #ffffff;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--primary-variant-2);
+  color: var(--primary);
+}
